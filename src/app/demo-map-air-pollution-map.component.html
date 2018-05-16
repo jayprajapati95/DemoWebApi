@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+      <table class="table">
+          <thead class="thead-inverse">
+          <tr>
+              <th class="text-center">City</th>
+              <th class="text-center">Country</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let Citiy of _CitiesArray">
+              <td class="text-center" style="width: 15px;">{{Citiy.city}}</td>
+              <td class="text-center" style="width: 200px;">{{Citiy.country}}</td>
+          </tr>
+          </tbody>
+      </table>
+  </div>
+</div>
