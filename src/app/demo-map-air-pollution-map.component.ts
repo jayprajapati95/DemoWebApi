@@ -1,5 +1,5 @@
-import { DemoServiceService } from './../demo-service.service';
-import { DemoInterface } from './../demo-interface';
+import { DemoServiceService } from './demo-service.service';
+import { DemoInterface } from './demo-interface';
 import { Http, Response} from '@angular/http';
 import { Component, OnInit } from '@angular/core';
 
